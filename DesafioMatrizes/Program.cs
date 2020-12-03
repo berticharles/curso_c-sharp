@@ -19,11 +19,11 @@ namespace DesafioMatrizes {
             int x = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < m; i++) {
-                for (int j = 0; j < n; j++) {
+                for (int j = 0; j < m; j++) {
                     if (mat[i, j] == x) {
                         Console.WriteLine("Position " + i + ", " + j + ":");
                         if (j > 0) {
-                            Console.WriteLine("Left: " + mat[i, j - 1]);
+                            Console.WriteLine("Left565754: " + mat[i, j - 1]);
                         }
                         if (i > 0) {
                             Console.WriteLine("Up: " + mat[i - 1, j]);
